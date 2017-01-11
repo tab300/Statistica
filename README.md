@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 # Statistica
-<<<<<<< HEAD
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/statistica`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -24,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem is for calculation of simple descriptive statistics of a given array of values. 
 
 ## Development
 
@@ -41,9 +38,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-=======
-A gem for calculating the descriptive statistics of an array of numbers or values.
->>>>>>> d005caf5db2b29c340fcfb507e59a436cefb61b9
-=======
 
->>>>>>> a7f7f82b5df33fe2f24ed4b2636dfdd94a0efb03
