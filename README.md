@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Statistica
 <<<<<<< HEAD
 
@@ -43,3 +44,6 @@ The gem is available as open source under the terms of the [MIT License](http://
 =======
 A gem for calculating the descriptive statistics of an array of numbers or values.
 >>>>>>> d005caf5db2b29c340fcfb507e59a436cefb61b9
+=======
+
+>>>>>>> a7f7f82b5df33fe2f24ed4b2636dfdd94a0efb03
