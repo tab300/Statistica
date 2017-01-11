@@ -25,20 +25,20 @@ This gem is for calculation of simple descriptive statistics of a given array of
 
 There are 14 methods available for an array of numbers. They are:
 
-`get_arith_mean` - for calculating the arithmetic mean
-`get_geo_mean`   - for calculating the geometric mean
-`get_harm_mean`   - for calculating the harmonic mean
-`get_median`   - for calculating the median
-`get_range`   - for calculating the range
-`get_mode`   - for calculating the mode
-`get_product`   - for calculating the product
-`get_sum`   - for calculating the sum
-`get_variance`   - for calculating the variance
-`get_stdev`   - for calculating the standard deviation
-`get_percentile(n)`   - for calculating the percentile where `n` is the percentile, e.g. `n = 25` for 25 percentile
-`get_interquartile_range`   - for calculating the interquartile range (difference between 75 percentile and 25 percentile)
-`get_relative_variance`   - for calculating the relative variance
-`get_coeff_variation`   - for calculating the coefficient of variation
+For calculating the arithmetic mean           - `get_arith_mean`  
+For calculating the geometric mean            - `get_geo_mean`  
+For calculating the harmonic mean             - `get_harm_mean`
+For calculating the median                    - `get_median`
+For calculating the range                     - `get_range`  
+For calculating the mode                      - `get_mode`   
+For calculating the product                   - `get_product`   
+For calculating the sum                       - `get_sum`   
+For calculating the variance                  - `get_variance`  
+For calculating the standard deviation        - `get_stdev`  
+For calculating the percentile                - `get_percentile(n)`       (e.g. `n = 25` for 25 percentile)
+For calculating the interquartile range       - `get_interquartile_range` (difference between 75 percentile and 25 percentile)
+For calculating the relative variance         - `get_relative_variance`   
+For calculating the coefficient of variation  - `get_coeff_variation`   
 
 As an example:
 
