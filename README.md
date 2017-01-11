@@ -21,23 +21,36 @@ Or install it yourself as:
 
 ## Usage
 
-This gem is for calculation of simple descriptive statistics of a given array of values as described above. After follwing the installation instructions above, then the gem is ready for use.
+This gem is for calculation of simple descriptive statistics of a given array of values as described above. After following the installation instructions above, then the gem is ready for use.
 
 There are 14 methods available for an array of numbers. They are:
 
 arithmetic mean           - `get_arith_mean`. 
+
 geometric mean            - `get_geo_mean`.  
+
 harmonic mean             - `get_harm_mean`.
+
 median                    - `get_median`.
+
 range                     - `get_range`.  
+
 mode                      - `get_mode`.   
+
 product                   - `get_product`.   
+
 sum                       - `get_sum`.   
+
 variance                  - `get_variance`.  
+
 standard deviation        - `get_stdev`.  
+
 percentile                - `get_percentile(n)`       (e.g. `n = 25` for 25 percentile).
+
 interquartile range       - `get_interquartile_range` (difference between 75 percentile and 25 percentile).
+
 relative variance         - `get_relative_variance`.   
+
 coefficient of variation  - `get_coeff_variation`.   
 
 As an example:
