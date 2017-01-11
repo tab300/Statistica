@@ -23,6 +23,8 @@ Or install it yourself as:
 
 This gem is for calculation of simple descriptive statistics of a given array of values as described above. After following the installation instructions above, then the gem is ready for use.
 
+#### Methods
+
 There are 14 methods available for an array of numbers. They are:
 
 arithmetic mean           - `get_arith_mean`. 
@@ -53,7 +55,7 @@ relative variance         - `get_relative_variance`.
 
 coefficient of variation  - `get_coeff_variation`.   
 
-As an example:
+#### Example
 
 Let `obj = [2, 3, 4]` be an array object. To calculate the arithmetic mean of the array object just do:
 
