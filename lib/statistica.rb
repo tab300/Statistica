@@ -1,20 +1,21 @@
-
+# Prepending the Array class with the module, Statistica
 Array.prepend Statistica
 
+# Running through the individual files first before prepending Array class with the parent module, Statistica
 BEGIN{
   require "statistica/version"
-  require "../statistica/lib/get_sum"
-  require "../statistica/lib/get_product"
-  require "../statistica/lib/get_arith_mean"
-  require "../statistica/lib/get_geo_mean"
-  require "../statistica/lib/get_harm_mean"
-  require "../statistica/lib/get_median"
-  require "../statistica/lib/get_mode"
-  require "../statistica/lib/get_range"
-  require "../statistica/lib/get_variance"
-  require "../statistica/lib/get_stdev"
-  require "../statistica/lib/get_coeff_variation"
-  require "../statistica/lib/get_percentile"
-  require "../statistica/lib/get_interquartile_range"
-  require "../statistica/lib/get_relative_variance"
+  require "get_sum"
+  require "get_product"
+  require "get_arith_mean"
+  require "get_geo_mean"
+  require "get_harm_mean"
+  require "get_median"
+  require "get_mode"
+  require "get_range"
+  require "get_variance"
+  require "get_stdev"
+  require "get_coeff_variation"
+  require "get_percentile"
+  require "get_interquartile_range"
+  require "get_relative_variance"
 }

@@ -4,7 +4,7 @@ require "../statistica/lib/fixtures"
 
 describe Statistica do
   it "has a version number" do
-    expect(Statistica::VERSION).not_to be nil
+   expect(Statistica::VERSION).not_to be nil
   end
 
   it "should calculate the sum of all the elements" do        # Test the sum

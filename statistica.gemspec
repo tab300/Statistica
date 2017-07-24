@@ -7,12 +7,13 @@ Gem::Specification.new do |spec|
   spec.name          = "statistica"
   spec.version       = Statistica::VERSION
   spec.authors       = ["Tola A."]
-  spec.email         = ["leston_1@HOTMAIL.COM"]
-
+  spec.email         = "leston_1@HOTMAIL.COM"
+  spec.files         = ["lib/statistica.rb"]
   spec.summary       = %q{A simple descriptive statistics gem.}
-  spec.description   = %q{This is a simple, easy-to-use, lightweight gem for calculating everyday descriptive statistics values.}
+  spec.description   = %q{This is a simple, easy-to-use, lightweight gem for calculating everyday
+                       descriptive statistics values.}
   spec.homepage      = "https://github.com/tab300/Statistica"
-  spec.license       = "MIT"
+  spec.licenses       = ["MIT"]
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -23,9 +24,9 @@ Gem::Specification.new do |spec|
   #     "public gem pushes."
   # end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
-    f.match(%r{^(test|spec|features)/})
-  end
+  # spec.files         = `git ls-files -z`.split("\x0").reject do |f|
+  #   f.match(%r{^(test|spec|features)/})
+  # end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
