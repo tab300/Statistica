@@ -6,7 +6,7 @@ require 'statistica/version'
 Gem::Specification.new do |spec|
   spec.name          = "statistica"
   spec.version       = Statistica::VERSION
-  spec.authors       = ["Tola A."]
+  spec.authors       = ["Tola Abiola"]
   spec.email         = "leston_1@HOTMAIL.COM"
   spec.files         = ["lib/statistica.rb"]
   spec.summary       = %q{A simple descriptive statistics gem.}

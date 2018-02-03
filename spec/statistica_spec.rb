@@ -1,6 +1,6 @@
 require "spec_helper"
 # A separate file to hold the testing values in order to ensure neatness of this file
-require "./lib/fixtures"
+require "fixtures"
 
 
 describe Statistica do
