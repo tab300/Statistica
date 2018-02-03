@@ -1,6 +1,8 @@
 # Statistica
 
-This is Statistica, a lightweight gem that is built to help in analyzing an array of number values. It arose from needing to do some descriptive statistics in one of my personal projects as well as taking on the challenge to build a framework that could be reusable in future requirements. I also feel obligated to share this as someone who has been a beneficiary of many open-source libraries/plugins/gems. Hopefully you could find a good use for this gem!  
+This is Statistica, a lightweight gem that is built to help in analyzing an array of number values. It arose from needing to do some descriptive statistics in one of my personal projects as well as taking on the challenge of building a framework that could be reusable in future requirements. I also feel obligated to share this as someone who has been a beneficiary of many open-source libraries/plugins/gems. Hopefully you could find a good use for this gem!
+
+##### And you are encouraged to contribute to it! 
 
 
 ## Installation
@@ -69,9 +71,11 @@ Same pattern applies to every other method available in the gem (list given abov
 
 
 ## Contributing
-Your contributions to make this project better in any way that you think are always welcome and appreciated.
+Please submit bug reports and make pull requests at https://github.com/tab300/statistica. 
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tab300/statistica. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+##### Your contributions to make this project better in any way that you think are always welcome and appreciated. You are highly encouraged to make suggestions, corrections, or extensions.   
+
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
